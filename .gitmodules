@@ -1,0 +1,3 @@
+[submodule "FullStackProject"]
+    path = FullStackProject
+    url = https://github.com/yourusername/FullStackProject.git
