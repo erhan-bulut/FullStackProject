@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1{
+    margin: 20px 0;
+    cursor: pointer;
+}
+.top-nav a{
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.top-nav a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+    color: red;
+}

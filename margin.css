@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: bisque;
+    margin: 50px;
+    text-align: center;
+    padding: 20px 10px;
+}
+.div{
+    background-color: blueviolet;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin: 20px auto;
+}

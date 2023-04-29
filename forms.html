@@ -1,0 +1,106 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>FORMS</h1>
+    <form action="result.html">
+      <section id="name">
+        <label for="isim">İsim</label> <br />
+        <input
+          type="text"
+          id="isim"
+          placeholder="Adınızı giriniz"
+          name="isim"
+          value=""
+          required
+        />
+        <br /><br />
+        <label for="pass">Email</label> <br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="emalinizi giriniz"
+          required
+        />
+        <br /><br />
+        <label for="pass">Password</label> <br />
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          placeholder="En az 8 karakter giriniz"
+          required
+        />
+        <br /><br />
+        <label for="age">Age</label> <br />
+        <input
+          type="number"
+          id="age"
+          name="age"
+          placeholder="Yaşınızı giriniz"
+          min="0"
+          max="160"
+        />
+
+        <br />
+        <p>Gender</p>
+
+        <label for="erkek">Erkek</label>
+        <input type="radio" id="erkek" name="gender" value="erkek" />
+
+        <label for="kadin">Kadın</label>
+        <input type="radio" id="kadin" name="gender" value="kadin" />
+        <label for="none">None</label>
+        <input type="radio" id="none" name="gender" value="none" checked />
+        <br />
+        <label for="fav-cars">LÜTFEN FAVORİ ARABALARINIZI SEÇİNİZ</label><br />
+
+        <input type="checkbox" name="cars1" id="bmw" value="BMW" />
+        <label for="bmw">BMW</label>
+        <input type="checkbox" name="cars2" id="mercedes" value="mercedes" />
+        <label for="mercedes">Mercedes</label>
+        <input type="checkbox" name="cars3" id="reno" value="reno" />
+        <label for="reno">Reno</label>
+        <br />
+        <label for="dob">Dogum Tarihi</label>
+        <input type="date" name="dob" id="dob" min="1990-01-01" />
+      </section>
+      <br />
+      <section>
+        <select name="tatli" id="tatli">
+          <optgroup label="şerbetli tatlılar">
+            <option value="künefe">Künefe</option>
+            <option value="havuç dilimi">H.Dilimi</option>
+          </optgroup>
+          <optgroup label="sütlü tatlılar">
+            <option value="sütlaç">Sütlaç</option>
+            <option value="kazandibi">Kazan Dibi</option>
+          </optgroup>
+        </select>
+      </section>
+      <br />
+      <section>
+        <label for="yorum">Yorumlarınızı giriniz</label> <br />
+        <textarea
+          name="yorum"
+          id="yorum"
+          cols="30"
+          rows="10"
+          style="resize: none"
+          maxlength="100"
+          placeholder="En fazla 100 karakter giriniz"
+        ></textarea>
+      </section>
+      <br />
+      <section id="buttons">
+        <input type="submit" value="Kaydet" />
+        <input type="reset" value="Sil" />
+      </section>
+    </form>
+  </body>
+</html>

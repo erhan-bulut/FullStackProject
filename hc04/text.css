@@ -1,0 +1,51 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.text-style{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: justify;
+}
+.text-style span{
+    color: red;
+}
+.decoration{
+    color: green;
+    text-decoration: overline;
+}
+.transformation{
+    color: blueviolet;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: none;
+
+}
+.spacing{
+    color: yellowgreen;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.4;
+
+}
+.indent{
+    text-indent: 30px;
+}
+.direct{
+    text-align: right;
+    direction: rtl;
+}
+.text-shadow{
+    text-shadow: 10px 5px 5px rgba(0, 0, 0,0.5);
+    text-shadow: 3px 5px 5px rgba(0, 0, 0,0.5);
+}
+.box-shadow{
+    background-color: beige;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0,0.5);
+}
